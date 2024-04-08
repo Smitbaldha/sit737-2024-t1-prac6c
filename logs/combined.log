@@ -1,0 +1,5 @@
+{"level":"info","message":"4/8/2024, 3:14:18 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/8/2024, 3:14:19 PM - GET /favicon.ico requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/8/2024, 3:14:23 PM - POST /add requested","requestBody":{"num1":"23","num2":"12"},"service":"ASMD-microservice"}
+{"level":"info","message":"4/8/2024, 3:29:00 PM - POST /subtract requested","requestBody":{"num1":"23","num2":"d"},"service":"ASMD-microservice"}
+{"level":"error","message":"4/8/2024, 3:29:00 PM - Invalid input for subtraction: num1=23, num2=d","service":"ASMD-microservice"}
