@@ -95,6 +95,14 @@ app.post('/divide', (req, res) => {
     res.json({ result: result });
 });
 
+
+// Health check route
+app.get('/health', (req, res) => {
+    // Just for testing
+    logger.info("Healthy");
+    res.status(200).send('Calculator service is healthy');
+});
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server is listening at http://localhost:${port}`);

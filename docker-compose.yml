@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  advanced_calculator_api:
+    build: ./
+    restart: always
+    ports:
+      - 1515:1515
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:1515/health" ]
+      interval: 3000s
+      timeout: 10s
+      retries: 3
