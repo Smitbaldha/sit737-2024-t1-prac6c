@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: advanced-calculator-api-deployment
+spec:
+  replicas: 1  
+  selector:
+    matchLabels:
+      app: advanced-calculator-api
+  template:
+    metadata:
+      labels:
+        app: advanced-calculator-api
+    spec:
+      containers:
+      - name: advanced-calculator-api-container
+        image: arithmaticimage:arithmatic  # Docker image name and tag
+        ports:
+        - containerPort: 1515  # Port on application listens
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 1515
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 1515
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
