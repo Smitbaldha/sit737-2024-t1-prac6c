@@ -4,3 +4,6 @@
 {"level":"error","message":"4/8/2024, 5:17:48 PM - Division by zero is not possible","service":"ASMD-microservice"}
 {"level":"error","message":"4/8/2024, 5:17:48 PM - Division by zero is not possible","service":"ASMD-microservice"}
 {"level":"error","message":"4/8/2024, 5:17:48 PM - Division by zero is not possible","service":"ASMD-microservice"}
+{"level":"error","message":"4/30/2024, 10:28:58 PM - Invalid input for exponential: base=undefined, exponent=undefined","service":"ASMD-microservice"}
+{"level":"error","message":"4/30/2024, 10:29:40 PM - Invalid input for exponential: base=undefined, exponent=undefined","service":"ASMD-microservice"}
+{"level":"error","message":"4/30/2024, 10:32:00 PM - Invalid input for exponential: base=undefined, exponent=undefined","service":"ASMD-microservice"}

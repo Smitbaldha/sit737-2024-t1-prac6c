@@ -96,6 +96,22 @@ app.post('/divide', (req, res) => {
 });
 
 
+// Route to handle exponential operation
+app.post('/exponential', (req, res) => {
+    const base = parseInt(req.body.num1);
+    const exponent = parseInt(req.body.num2);
+    
+
+    if (!isValidNumber(base) || !isValidNumber(exponent)) {
+        logger.error(new Date().toLocaleString() +' - Invalid input for exponential: base=' + req.body.base + ', exponent=' + req.body.exponent);
+        return res.status(400).json({ error: "Invalid input. Please provide valid numbers." });
+    }
+
+    const result = Math.pow(base, exponent);
+    res.json({ result: result });
+});
+
+
 // Health check route
 app.get('/health', (req, res) => {
     // Just for testing

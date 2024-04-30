@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: advanced-calculator-api-container
-        image: arithmaticimage:arithmatic  # Docker image name and tag
+        image: arithmaticimage_v2:arithmatic_v2  # Docker image name and tag
         ports:
         - containerPort: 1515  # Port on application listens
         livenessProbe:

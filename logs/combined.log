@@ -20,3 +20,22 @@
 {"level":"error","message":"4/8/2024, 5:17:48 PM - Division by zero is not possible","service":"ASMD-microservice"}
 {"level":"info","message":"4/8/2024, 5:17:48 PM - POST /divide requested","requestBody":{"num1":"45","num2":"0"},"service":"ASMD-microservice"}
 {"level":"error","message":"4/8/2024, 5:17:48 PM - Division by zero is not possible","service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:26:45 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:26:49 PM - GET /favicon.ico requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:28:53 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:28:58 PM - POST /exponential requested","requestBody":{"num1":"3","num2":"4"},"service":"ASMD-microservice"}
+{"level":"error","message":"4/30/2024, 10:28:58 PM - Invalid input for exponential: base=undefined, exponent=undefined","service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:29:31 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:29:40 PM - POST /exponential requested","requestBody":{"num1":"1","num2":"45"},"service":"ASMD-microservice"}
+{"level":"error","message":"4/30/2024, 10:29:40 PM - Invalid input for exponential: base=undefined, exponent=undefined","service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:31:56 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:32:00 PM - POST /exponential requested","requestBody":{"num1":"1","num2":"3"},"service":"ASMD-microservice"}
+{"level":"error","message":"4/30/2024, 10:32:00 PM - Invalid input for exponential: base=undefined, exponent=undefined","service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:32:13 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:32:18 PM - POST /exponential requested","requestBody":{"num1":"6","num2":"2"},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:34:55 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:35:01 PM - POST /exponential requested","requestBody":{"num1":"4","num2":"2"},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:36:08 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:36:11 PM - POST /exponential requested","requestBody":{"num1":"5","num2":"1"},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:37:22 PM - GET / requested","requestBody":{},"service":"ASMD-microservice"}
+{"level":"info","message":"4/30/2024, 10:37:26 PM - POST /exponential requested","requestBody":{"num1":"4","num2":"2"},"service":"ASMD-microservice"}
