@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: advanced-calculator-api-service-v2
+  name: advanced-calculator-api-service-v4
 spec:
   selector:
     app: advanced-calculator-api  # Label selector to target the pods

@@ -14,9 +14,20 @@ spec:
     spec:
       containers:
       - name: advanced-calculator-api-container
-        image: arithmaticimage_v2:arithmatic_v2  # Docker image name and tag
+        image: arithmaticimage_v3:arithmatic  # Docker image name and tag
         ports:
         - containerPort: 1515  # Port on application listens
+        env:
+          - name: MONGO_USERNAME
+            valueFrom:
+              secretKeyRef:
+                name: mongodb-secret
+                key: username
+          - name: MONGO_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: mongodb-secret
+                key: password
         livenessProbe:
           httpGet:
             path: /health
